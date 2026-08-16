@@ -1,0 +1,88 @@
+name: Update IPTV and EPG
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Türkiye UTC+3: 01:05 UTC = 04:05 Türkiye saati.
+    - cron: "5 1 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iptv-epg-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v7
+
+      - name: Setup Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Run repository tests
+        run: python tests.py
+
+      - name: Build curated Turkish playlist
+        run: python build_playlist.py --config channels.json
+
+      - name: Checkout iptv-org EPG tools
+        uses: actions/checkout@v7
+        with:
+          repository: iptv-org/epg
+          ref: master
+          path: _iptv_org_epg
+          persist-credentials: false
+
+      - name: Build selected EPG channel map
+        run: python build_epg_channels.py --selected selected_channels.json --epg-root _iptv_org_epg --output epg_channels.xml --report epg_mapping.json
+
+      - name: Setup Node.js for iptv-org EPG
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          package-manager-cache: false
+
+      - name: Install iptv-org EPG dependencies
+        working-directory: _iptv_org_epg
+        env:
+          HUSKY: "0"
+        run: npm ci
+
+      - name: Grab EPG candidate
+        id: epg_grab
+        continue-on-error: true
+        working-directory: _iptv_org_epg
+        run: npm run grab --- --channels=../epg_channels.xml --output=../epg.new.xml --days=3 --maxConnections=4 --timeout=30000
+
+      - name: Promote valid EPG or keep previous
+        run: python promote_epg.py --candidate epg.new.xml --output epg.xml --gzip-output epg.xml.gz --status epg_status.json
+
+      - name: Validate generated outputs
+        run: python validate_outputs.py
+
+      - name: Remove temporary upstream checkout
+        run: rm -rf _iptv_org_epg
+
+      - name: Commit updates
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add playlist.m3u selected_channels.json status.json epg_channels.xml epg_mapping.json epg.xml epg.xml.gz epg_status.json
+
+          if git diff --cached --quiet; then
+            echo "IPTV/EPG çıktılarında değişiklik yok."
+            exit 0
+          fi
+
+          git commit -m "chore: update IPTV playlist and EPG"
+          git push
