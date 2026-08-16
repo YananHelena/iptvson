@@ -1,4 +1,7 @@
 __pycache__/
 *.pyc
 _iptv_org_epg/
+epg_sources/
+epg_candidates/
 epg.new.xml
+epg_coverage.new.json
