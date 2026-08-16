@@ -16,7 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
 
     steps:
       - name: Checkout this repository
@@ -41,8 +41,14 @@ jobs:
           path: _iptv_org_epg
           persist-credentials: false
 
-      - name: Build selected EPG channel map
-        run: python build_epg_channels.py --selected selected_channels.json --epg-root _iptv_org_epg --output epg_channels.xml --report epg_mapping.json
+      - name: Build per-source EPG channel lists
+        run: |
+          python build_epg_sources.py \
+            --selected selected_channels.json \
+            --config channels.json \
+            --epg-root _iptv_org_epg \
+            --output-dir epg_sources \
+            --report epg_source_map.json
 
       - name: Setup Node.js for iptv-org EPG
         uses: actions/setup-node@v7
@@ -56,20 +62,60 @@ jobs:
           HUSKY: "0"
         run: npm ci
 
-      - name: Grab EPG candidate
-        id: epg_grab
-        continue-on-error: true
+      - name: Grab EPG candidates separately
         working-directory: _iptv_org_epg
-        run: npm run grab --- --channels=../epg_channels.xml --output=../epg.new.xml --days=3 --maxConnections=4 --timeout=30000
+        shell: bash
+        run: |
+          mkdir -p ../epg_candidates
 
-      - name: Promote valid EPG or keep previous
-        run: python promote_epg.py --candidate epg.new.xml --output epg.xml --gzip-output epg.xml.gz --status epg_status.json
+          shopt -s nullglob
+          files=(../epg_sources/*.channels.xml)
 
-      - name: Validate generated outputs
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "Hiç EPG source channel dosyası oluşmadı."
+            exit 1
+          fi
+
+          for file in "${files[@]}"; do
+            base="$(basename "$file" .channels.xml)"
+            echo "===== EPG source: $base ====="
+
+            # One broken provider must not abort the other providers.
+            npm run grab --- \
+              --channels="$file" \
+              --output="../epg_candidates/$base.xml" \
+              --days=3 \
+              --maxConnections=3 \
+              --timeout=30000 \
+              || echo "WARNING: $base grab failed; fallback sources will still be checked."
+          done
+
+      - name: Merge EPG using real programme coverage
+        run: |
+          python merge_epg.py \
+            --selected selected_channels.json \
+            --config channels.json \
+            --candidate-dir epg_candidates \
+            --output epg.new.xml \
+            --report epg_coverage.new.json
+
+      - name: Promote only a sufficiently complete EPG
+        run: |
+          python promote_epg.py \
+            --candidate epg.new.xml \
+            --coverage epg_coverage.new.json \
+            --selected selected_channels.json \
+            --config channels.json \
+            --output epg.xml \
+            --gzip-output epg.xml.gz \
+            --final-coverage epg_coverage.json \
+            --status epg_status.json
+
+      - name: Validate playlist and EPG
         run: python validate_outputs.py
 
-      - name: Remove temporary upstream checkout
-        run: rm -rf _iptv_org_epg
+      - name: Remove temporary upstream/work files
+        run: rm -rf _iptv_org_epg epg_sources epg_candidates
 
       - name: Commit updates
         shell: bash
@@ -77,7 +123,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add playlist.m3u selected_channels.json status.json epg_channels.xml epg_mapping.json epg.xml epg.xml.gz epg_status.json
+          git add \
+            playlist.m3u \
+            selected_channels.json \
+            status.json \
+            epg_source_map.json \
+            epg_coverage.json \
+            epg.xml \
+            epg.xml.gz \
+            epg_status.json
 
           if git diff --cached --quiet; then
             echo "IPTV/EPG çıktılarında değişiklik yok."
