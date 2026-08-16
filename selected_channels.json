@@ -3,6 +3,7 @@
     "name": "TRT 1",
     "group": "Ulusal",
     "tvg_id": "TRT1.tr",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png",
     "aliases": [
       "TRT 1",
       "TRT1"
@@ -16,6 +17,7 @@
     "name": "Kanal D",
     "group": "Ulusal",
     "tvg_id": "KanalD.tr",
+    "tvg_logo": "https://i.imgur.com/9o1atM6.png",
     "aliases": [
       "Kanal D",
       "KANAL D"
@@ -29,6 +31,7 @@
     "name": "Star TV",
     "group": "Ulusal",
     "tvg_id": "StarTV.tr",
+    "tvg_logo": "https://i.imgur.com/9O3DHRB.png",
     "aliases": [
       "Star TV",
       "STAR TV",
@@ -43,6 +46,7 @@
     "name": "ATV",
     "group": "Ulusal",
     "tvg_id": "ATV.tr",
+    "tvg_logo": "https://i.imgur.com/HyVUwFC.png",
     "aliases": [
       "ATV"
     ],
@@ -55,6 +59,7 @@
     "name": "NOW",
     "group": "Ulusal",
     "tvg_id": "NOWTV.tr",
+    "tvg_logo": "https://i.imgur.com/5EYjWK7.png",
     "aliases": [
       "NOW",
       "NOW TV",
@@ -70,6 +75,7 @@
     "name": "TV8",
     "group": "Ulusal",
     "tvg_id": "TV8.tr",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png",
     "aliases": [
       "TV8",
       "TV 8",
@@ -84,6 +90,7 @@
     "name": "360",
     "group": "Ulusal",
     "tvg_id": "360.tr",
+    "tvg_logo": "https://i.imgur.com/agn47sQ.png",
     "aliases": [
       "360",
       "360 TV"
@@ -97,6 +104,7 @@
     "name": "a2",
     "group": "Ulusal",
     "tvg_id": "A2TV.tr",
+    "tvg_logo": "https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png",
     "aliases": [
       "a2",
       "A2",
@@ -112,6 +120,7 @@
     "name": "CNBC-e",
     "group": "Ulusal",
     "tvg_id": "CNBCe.tr",
+    "tvg_logo": "https://s.cnbce.com/dist/images/logo-nav.png",
     "aliases": [
       "CNBC-e",
       "CNBC e",
@@ -126,6 +135,7 @@
     "name": "Kanal 7",
     "group": "Ulusal",
     "tvg_id": "Kanal7.tr",
+    "tvg_logo": "https://i.imgur.com/0gq9xOm.png",
     "aliases": [
       "Kanal 7",
       "KANAL 7"
@@ -139,6 +149,7 @@
     "name": "Beyaz TV",
     "group": "Ulusal",
     "tvg_id": "BeyazTV.tr",
+    "tvg_logo": "https://i.imgur.com/uykIdML.png",
     "aliases": [
       "Beyaz TV",
       "BEYAZ TV"
@@ -152,6 +163,7 @@
     "name": "TV100",
     "group": "Ulusal",
     "tvg_id": "TV100.tr",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/960px-TV100_logo.png",
     "aliases": [
       "TV100",
       "TV 100",
@@ -166,6 +178,7 @@
     "name": "TRT 2",
     "group": "Kültür & Yaşam",
     "tvg_id": "TRT2.tr",
+    "tvg_logo": "https://i.imgur.com/iOCQdyD.png",
     "aliases": [
       "TRT 2",
       "TRT2"
@@ -179,6 +192,7 @@
     "name": "NTV",
     "group": "Haber",
     "tvg_id": "NTV.tr",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png",
     "aliases": [
       "NTV"
     ],
@@ -191,6 +205,7 @@
     "name": "Habertürk",
     "group": "Haber",
     "tvg_id": "HaberturkTV.tr",
+    "tvg_logo": "https://i.imgur.com/6Tw3rUp.png",
     "aliases": [
       "Habertürk",
       "Haberturk",
@@ -206,6 +221,7 @@
     "name": "A Haber",
     "group": "Haber",
     "tvg_id": "AHaber.tr",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png",
     "aliases": [
       "A Haber",
       "AHABER",
@@ -220,6 +236,7 @@
     "name": "TRT Haber",
     "group": "Haber",
     "tvg_id": "TRTHaber.tr",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/960px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png",
     "aliases": [
       "TRT Haber",
       "TRT HABER"
@@ -233,6 +250,7 @@
     "name": "24",
     "group": "Haber",
     "tvg_id": "24TV.tr",
+    "tvg_logo": "https://i.imgur.com/8FO41es.png",
     "aliases": [
       "24",
       "24 TV",
@@ -247,6 +265,7 @@
     "name": "Bloomberg HT",
     "group": "Haber",
     "tvg_id": "BloombergHT.tr",
+    "tvg_logo": "https://i.imgur.com/bmkXfIE.png",
     "aliases": [
       "Bloomberg HT",
       "BLOOMBERG HT"
@@ -260,6 +279,7 @@
     "name": "Halk TV",
     "group": "Haber",
     "tvg_id": "HalkTV.tr",
+    "tvg_logo": "https://i.imgur.com/xM0HA30.png",
     "aliases": [
       "Halk TV",
       "HALK TV"
@@ -273,6 +293,7 @@
     "name": "TELE1",
     "group": "Haber",
     "tvg_id": "Tele1.tr",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png",
     "aliases": [
       "TELE1",
       "TELE 1",
@@ -287,6 +308,7 @@
     "name": "Haber Global",
     "group": "Haber",
     "tvg_id": "HaberGlobal.tr",
+    "tvg_logo": "https://i.imgur.com/fu6XeGS.png",
     "aliases": [
       "Haber Global",
       "HABERGLOBAL",
@@ -301,6 +323,7 @@
     "name": "TGRT Haber",
     "group": "Haber",
     "tvg_id": "TGRTHaber.tr",
+    "tvg_logo": "https://i.imgur.com/PrxwKDw.png",
     "aliases": [
       "TGRT Haber",
       "TGRT HABER"
@@ -314,6 +337,7 @@
     "name": "TVNET",
     "group": "Haber",
     "tvg_id": "TVNET.tr",
+    "tvg_logo": "https://i.imgur.com/mQo8yWQ.png",
     "aliases": [
       "TVNET",
       "TV Net"
@@ -327,6 +351,7 @@
     "name": "Flash Haber",
     "group": "Haber",
     "tvg_id": "FlashHaberTV.tr",
+    "tvg_logo": "",
     "aliases": [
       "Flash Haber",
       "FLASH HABER",
@@ -341,6 +366,7 @@
     "name": "TRT Spor",
     "group": "Spor",
     "tvg_id": "TRTSpor.tr",
+    "tvg_logo": "https://i.imgur.com/6tv0zxh.png",
     "aliases": [
       "TRT Spor",
       "TRT SPOR"
@@ -354,6 +380,7 @@
     "name": "TRT Spor Yıldız",
     "group": "Spor",
     "tvg_id": "TRTSporYildiz.tr",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/960px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png",
     "aliases": [
       "TRT Spor Yıldız",
       "TRT Spor Yildiz",
@@ -368,6 +395,7 @@
     "name": "A Spor",
     "group": "Spor",
     "tvg_id": "ASpor.tr",
+    "tvg_logo": "https://i.imgur.com/ZhkZzLf.png",
     "aliases": [
       "A Spor",
       "A SPOR"
@@ -381,6 +409,7 @@
     "name": "TJK TV",
     "group": "Spor",
     "tvg_id": "TJKTV.tr",
+    "tvg_logo": "https://i.imgur.com/3zHdkYG.png",
     "aliases": [
       "TJK TV",
       "TJK"
@@ -394,6 +423,7 @@
     "name": "TRT Belgesel",
     "group": "Belgesel",
     "tvg_id": "TRTBelgesel.tr",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/960px-TRT_Belgesel_logo_%282019-%29.svg.png",
     "aliases": [
       "TRT Belgesel",
       "TRT BELGESEL"
@@ -407,6 +437,7 @@
     "name": "TRT Çocuk",
     "group": "Çocuk",
     "tvg_id": "TRTCocuk.tr",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/960px-TRT_%C3%87ocuk_logo_%282021%29.svg.png",
     "aliases": [
       "TRT Çocuk",
       "TRT Cocuk",
@@ -421,6 +452,7 @@
     "name": "Minika Çocuk",
     "group": "Çocuk",
     "tvg_id": "MinikaCocuk.tr",
+    "tvg_logo": "https://i.imgur.com/VCywMTv.png",
     "aliases": [
       "Minika Çocuk",
       "Minika Cocuk",
@@ -435,6 +467,7 @@
     "name": "Minika GO",
     "group": "Çocuk",
     "tvg_id": "MinikaGo.tr",
+    "tvg_logo": "https://i.imgur.com/qIoipDq.png",
     "aliases": [
       "Minika GO",
       "MinikaGo",
@@ -450,6 +483,7 @@
     "name": "TRT Müzik",
     "group": "Müzik",
     "tvg_id": "TRTMuzik.tr",
+    "tvg_logo": "https://i.imgur.com/JgUzRH8.png",
     "aliases": [
       "TRT Müzik",
       "TRT Muzik",
@@ -464,6 +498,7 @@
     "name": "TRT Türk",
     "group": "Kültür & Yaşam",
     "tvg_id": "TRTTurk.tr",
+    "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/960px-TRT_T%C3%BCrk_logo.svg.png",
     "aliases": [
       "TRT Türk",
       "TRT Turk",

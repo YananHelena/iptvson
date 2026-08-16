@@ -1,0 +1,1088 @@
+{
+  "sources": {
+    "dsmart.com.tr": {
+      "available_definitions": 100,
+      "mapped_channels": 28
+    },
+    "turksatkablo.com.tr": {
+      "available_definitions": 177,
+      "mapped_channels": 33
+    },
+    "digiturk.com.tr": {
+      "available_definitions": 112,
+      "mapped_channels": 33
+    },
+    "tvplus.com.tr": {
+      "available_definitions": 150,
+      "mapped_channels": 34
+    }
+  },
+  "channels": {
+    "TRT1.tr": {
+      "name": "TRT 1",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c606274",
+          "source_name": "TRT 1",
+          "source_xmltv_id": "TRT1.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "1103",
+          "source_name": "TRT 1",
+          "source_xmltv_id": "TRT1.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "19",
+          "source_name": "TRT 1",
+          "source_xmltv_id": "TRT1.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "144",
+          "source_name": "TRT1",
+          "source_xmltv_id": "TRT1.tr@SD",
+          "match_reason": "id+compact_name",
+          "match_score": 160.0
+        }
+      }
+    },
+    "KanalD.tr": {
+      "name": "Kanal D",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c606258",
+          "source_name": "Kanal D",
+          "source_xmltv_id": "KanalD.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "1202",
+          "source_name": "Kanal D",
+          "source_xmltv_id": "KanalD.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "430",
+          "source_name": "KANAL D",
+          "source_xmltv_id": "KanalD.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "88",
+          "source_name": "KANAL D",
+          "source_xmltv_id": "KanalD.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "StarTV.tr": {
+      "name": "Star TV",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c606259",
+          "source_name": "Star",
+          "source_xmltv_id": "StarTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "1203",
+          "source_name": "Star",
+          "source_xmltv_id": "",
+          "match_reason": "name",
+          "match_score": 45.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "406",
+          "source_name": "STAR TV",
+          "source_xmltv_id": "StarTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "89",
+          "source_name": "STAR TV",
+          "source_xmltv_id": "StarTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "NOWTV.tr": {
+      "name": "NOW",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c6062a0",
+          "source_name": "NOW",
+          "source_xmltv_id": "NOWTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "1205",
+          "source_name": "NOW",
+          "source_xmltv_id": "",
+          "match_reason": "name",
+          "match_score": 45.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "18",
+          "source_name": "FOX",
+          "source_xmltv_id": "Fox.tr@SD",
+          "match_reason": "name",
+          "match_score": 45.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "93",
+          "source_name": "NOW",
+          "source_xmltv_id": "NOWTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "TV8.tr": {
+      "name": "TV8",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c6062ae",
+          "source_name": "TV8",
+          "source_xmltv_id": "TV8.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "1401",
+          "source_name": "TV 8",
+          "source_xmltv_id": "TV8.tr@SD",
+          "match_reason": "id+compact_name",
+          "match_score": 160.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "428",
+          "source_name": "TV8",
+          "source_xmltv_id": "TV8.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "134",
+          "source_name": "TV8",
+          "source_xmltv_id": "TV8.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "360.tr": {
+      "name": "360",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c606236",
+          "source_name": "360",
+          "source_xmltv_id": "360.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "3004",
+          "source_name": "360",
+          "source_xmltv_id": "360.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "30",
+          "source_name": "360",
+          "source_xmltv_id": "360.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "86",
+          "source_name": "360",
+          "source_xmltv_id": "360.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "A2TV.tr": {
+      "name": "a2",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "59dcbe14cfef0b4d80a49646",
+          "source_name": "a2",
+          "source_xmltv_id": "A2TV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "3208",
+          "source_name": "a2",
+          "source_xmltv_id": "A2TV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "490",
+          "source_name": "A2",
+          "source_xmltv_id": "A2TV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "2",
+          "source_name": "A2",
+          "source_xmltv_id": "A2TV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "CNBCe.tr": {
+      "name": "CNBC-e",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "66630f98cfef0b02d797d815",
+          "source_name": "CNBC-e",
+          "source_xmltv_id": "CNBCEurope.uk@SD",
+          "match_reason": "name",
+          "match_score": 45.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "2003",
+          "source_name": "CNBC-e",
+          "source_xmltv_id": "CNBCe.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "561",
+          "source_name": "CNBC-e",
+          "source_xmltv_id": "",
+          "match_reason": "name",
+          "match_score": 45.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "4362",
+          "source_name": "CNBC-E",
+          "source_xmltv_id": "CNBCEurope.uk@SD",
+          "match_reason": "name",
+          "match_score": 45.0
+        }
+      }
+    },
+    "Kanal7.tr": {
+      "name": "Kanal 7",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c60629c",
+          "source_name": "Kanal 7",
+          "source_xmltv_id": "Kanal7.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "2901",
+          "source_name": "Kanal 7",
+          "source_xmltv_id": "Kanal7.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "439",
+          "source_name": "KANAL 7",
+          "source_xmltv_id": "Kanal7.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "90",
+          "source_name": "KANAL 7",
+          "source_xmltv_id": "Kanal7.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "TV100.tr": {
+      "name": "TV100",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "5ccfd6adcfef0b6021816941",
+          "source_name": "Tv 100",
+          "source_xmltv_id": "TV100.tr@SD",
+          "match_reason": "id+compact_name",
+          "match_score": 160.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "1412",
+          "source_name": "tv 100",
+          "source_xmltv_id": "TV100.tr@SD",
+          "match_reason": "id+compact_name",
+          "match_score": 160.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "527",
+          "source_name": "tv100",
+          "source_xmltv_id": "TV100.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "179",
+          "source_name": "TV100",
+          "source_xmltv_id": "TV100.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "TRT2.tr": {
+      "name": "TRT 2",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c606263",
+          "source_name": "trt 2",
+          "source_xmltv_id": "TRT2.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "2308",
+          "source_name": "TRT 2",
+          "source_xmltv_id": "TRT2.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "308",
+          "source_name": "TRT 2",
+          "source_xmltv_id": "TRT2.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "83",
+          "source_name": "TRT 2",
+          "source_xmltv_id": "TRT2.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "NTV.tr": {
+      "name": "NTV",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c60623a",
+          "source_name": "NTV",
+          "source_xmltv_id": "NTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "1402",
+          "source_name": "NTV",
+          "source_xmltv_id": "NTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "28",
+          "source_name": "NTV",
+          "source_xmltv_id": "NTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "81",
+          "source_name": "NTV",
+          "source_xmltv_id": "NTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "HaberturkTV.tr": {
+      "name": "Habertürk",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c60629d",
+          "source_name": "Haber Türk",
+          "source_xmltv_id": "HaberturkTV.tr@SD",
+          "match_reason": "id+compact_name",
+          "match_score": 160.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "1406",
+          "source_name": "HABERTÜRK TV",
+          "source_xmltv_id": "",
+          "match_reason": "name",
+          "match_score": 45.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "31",
+          "source_name": "HABERTURK",
+          "source_xmltv_id": "HaberturkTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "87",
+          "source_name": "HABERTÜRK",
+          "source_xmltv_id": "HaberturkTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "TRTHaber.tr": {
+      "name": "TRT Haber",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c606289",
+          "source_name": "TRT Haber",
+          "source_xmltv_id": "TRTHaber.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "1105",
+          "source_name": "TRT Haber",
+          "source_xmltv_id": "TRTHaber.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "20",
+          "source_name": "TRT HABER",
+          "source_xmltv_id": "TRTHaber.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "30",
+          "source_name": "TRT HABER",
+          "source_xmltv_id": "TRTHaber.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "24TV.tr": {
+      "name": "24",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c60622e",
+          "source_name": "24",
+          "source_xmltv_id": "24TV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "1403",
+          "source_name": "24",
+          "source_xmltv_id": "24TV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "178",
+          "source_name": "24 TV",
+          "source_xmltv_id": "24TV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "32",
+          "source_name": "24",
+          "source_xmltv_id": "24TV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "BloombergHT.tr": {
+      "name": "Bloomberg HT",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c60623e",
+          "source_name": "Bloomberg HT",
+          "source_xmltv_id": "BloombergHT.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "1206",
+          "source_name": "Bloomberg HT",
+          "source_xmltv_id": "BloombergHT.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "24",
+          "source_name": "BLOOMBERG HT",
+          "source_xmltv_id": "BloombergHT.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "96",
+          "source_name": "BLOOMBERG HT",
+          "source_xmltv_id": "BloombergHT.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "Tele1.tr": {
+      "name": "TELE1",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "59dcbddccfef0b4d80a49642",
+          "source_name": "Tele 1",
+          "source_xmltv_id": "Tele1.tr@SD",
+          "match_reason": "id+compact_name",
+          "match_score": 160.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "3714",
+          "source_name": "TELE 1",
+          "source_xmltv_id": "Tele1.tr@SD",
+          "match_reason": "id+compact_name",
+          "match_score": 160.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "525",
+          "source_name": "TELE 1",
+          "source_xmltv_id": "Tele1.tr@SD",
+          "match_reason": "id+compact_name",
+          "match_score": 160.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "189",
+          "source_name": "TELE1",
+          "source_xmltv_id": "Tele1.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "HaberGlobal.tr": {
+      "name": "Haber Global",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "5bac7dedcfef0b02fac035fd",
+          "source_name": "Haber Global",
+          "source_xmltv_id": "HaberGlobal.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "1315",
+          "source_name": "Haber Global",
+          "source_xmltv_id": "HaberGlobal.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "520",
+          "source_name": "HABERGLOBAL",
+          "source_xmltv_id": "HaberGlobal.tr@SD",
+          "match_reason": "id+compact_name",
+          "match_score": 160.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "5",
+          "source_name": "HABER GLOBAL",
+          "source_xmltv_id": "HaberGlobal.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "TGRTHaber.tr": {
+      "name": "TGRT Haber",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c60623d",
+          "source_name": "TGRT Haber",
+          "source_xmltv_id": "TGRTHaber.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "1701",
+          "source_name": "TGRT Haber",
+          "source_xmltv_id": "TGRTHaber.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "84",
+          "source_name": "TGRT HABER",
+          "source_xmltv_id": "TGRTHaber.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "34",
+          "source_name": "TGRT HABER",
+          "source_xmltv_id": "TGRTHaber.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "TVNET.tr": {
+      "name": "TVNET",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c60629e",
+          "source_name": "TV Net",
+          "source_xmltv_id": "TVNET.tr@SD",
+          "match_reason": "id+compact_name",
+          "match_score": 160.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "2905",
+          "source_name": "Tvnet",
+          "source_xmltv_id": "TVNET.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "222",
+          "source_name": "TVNET",
+          "source_xmltv_id": "TVNET.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "92",
+          "source_name": "TVNET",
+          "source_xmltv_id": "TVNET.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "TRTSpor.tr": {
+      "name": "TRT Spor",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c6062a9",
+          "source_name": "TRT Spor",
+          "source_xmltv_id": "TRTSpor.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "2505",
+          "source_name": "TRT Spor",
+          "source_xmltv_id": "TRTSpor.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "331",
+          "source_name": "TRT SPOR",
+          "source_xmltv_id": "TRTSpor.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "31",
+          "source_name": "TRT SPOR",
+          "source_xmltv_id": "TRTSpor.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "TRTSporYildiz.tr": {
+      "name": "TRT Spor Yıldız",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "5da87214cfef0b4df9157780",
+          "source_name": "Trt Spor Yıldız",
+          "source_xmltv_id": "TRTSporYildiz.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "2711",
+          "source_name": "TRT Spor Yıldız",
+          "source_xmltv_id": "",
+          "match_reason": "name",
+          "match_score": 45.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "533",
+          "source_name": "TRT SPOR YILDIZ",
+          "source_xmltv_id": "TRTSporYildiz.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "205",
+          "source_name": "TRT SPOR YILDIZ",
+          "source_xmltv_id": "TRTSporYildiz.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "TRTBelgesel.tr": {
+      "name": "TRT Belgesel",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c6062a8",
+          "source_name": "TRT Belgesel",
+          "source_xmltv_id": "TRTBelgesel.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "2103",
+          "source_name": "TRT Belgesel",
+          "source_xmltv_id": "TRTBelgesel.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "487",
+          "source_name": "TRT BELGESEL",
+          "source_xmltv_id": "TRTBelgesel.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "21",
+          "source_name": "TRT BELGESEL",
+          "source_xmltv_id": "TRTBelgesel.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "TRTCocuk.tr": {
+      "name": "TRT Çocuk",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c606255",
+          "source_name": "TRT Çocuk",
+          "source_xmltv_id": "TRTCocuk.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "1606",
+          "source_name": "TRT Çocuk",
+          "source_xmltv_id": "",
+          "match_reason": "name",
+          "match_score": 45.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "243",
+          "source_name": "TRT ÇOCUK",
+          "source_xmltv_id": "TRTCocuk.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "99",
+          "source_name": "TRT ÇOCUK",
+          "source_xmltv_id": "TRTCocuk.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "MinikaCocuk.tr": {
+      "name": "Minika Çocuk",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c60626d",
+          "source_name": "Minika Çocuk",
+          "source_xmltv_id": "",
+          "match_reason": "name",
+          "match_score": 45.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "2608",
+          "source_name": "Minika Çocuk",
+          "source_xmltv_id": "",
+          "match_reason": "name",
+          "match_score": 45.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "102",
+          "source_name": "MİNİKA ÇOCUK",
+          "source_xmltv_id": "MinikaCocuk.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "MinikaGo.tr": {
+      "name": "Minika GO",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c606257",
+          "source_name": "Minika GO",
+          "source_xmltv_id": "MinikaGo.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "2404",
+          "source_name": "Minika Go",
+          "source_xmltv_id": "MinikaGo.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "291",
+          "source_name": "MİNİKAGO",
+          "source_xmltv_id": "MinikaGo.tr@SD",
+          "match_reason": "id+compact_name",
+          "match_score": 160.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "7",
+          "source_name": "MİNİKA GO",
+          "source_xmltv_id": "MinikaGo.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "TRTMuzik.tr": {
+      "name": "TRT Müzik",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c606266",
+          "source_name": "TRT Müzik",
+          "source_xmltv_id": "TRTMuzik.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "2102",
+          "source_name": "TRT Müzik",
+          "source_xmltv_id": "",
+          "match_reason": "name",
+          "match_score": 45.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "261",
+          "source_name": "TRT MÜZİK",
+          "source_xmltv_id": "TRTMuzik.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "159",
+          "source_name": "TRT MÜZİK",
+          "source_xmltv_id": "TRTMuzik.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "TRTTurk.tr": {
+      "name": "TRT Türk",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "58d29bb0eefad3db9c60624c",
+          "source_name": "TRT Türk",
+          "source_xmltv_id": "TRTTurk.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "1106",
+          "source_name": "TRT Türk",
+          "source_xmltv_id": "",
+          "match_reason": "name",
+          "match_score": 45.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "245",
+          "source_name": "TRT TURK",
+          "source_xmltv_id": "TRTTurk.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "156",
+          "source_name": "TRT TÜRK",
+          "source_xmltv_id": "TRTTurk.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "ATV.tr": {
+      "name": "ATV",
+      "sources": {
+        "turksatkablo.com.tr": {
+          "site_id": "2401",
+          "source_name": "Atv",
+          "source_xmltv_id": "ATV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "300",
+          "source_name": "ATV",
+          "source_xmltv_id": "ATV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "124",
+          "source_name": "ATV",
+          "source_xmltv_id": "ATV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "BeyazTV.tr": {
+      "name": "Beyaz TV",
+      "sources": {
+        "turksatkablo.com.tr": {
+          "site_id": "2903",
+          "source_name": "Beyaz TV",
+          "source_xmltv_id": "BeyazTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "188",
+          "source_name": "BEYAZ TV",
+          "source_xmltv_id": "BeyazTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "135",
+          "source_name": "BEYAZ TV",
+          "source_xmltv_id": "BeyazTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "AHaber.tr": {
+      "name": "A Haber",
+      "sources": {
+        "turksatkablo.com.tr": {
+          "site_id": "2402",
+          "source_name": "A Haber",
+          "source_xmltv_id": "AHaber.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "301",
+          "source_name": "AHABER",
+          "source_xmltv_id": "AHaber.tr@SD",
+          "match_reason": "id+compact_name",
+          "match_score": 160.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "160",
+          "source_name": "A HABER",
+          "source_xmltv_id": "AHaber.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "HalkTV.tr": {
+      "name": "Halk TV",
+      "sources": {
+        "turksatkablo.com.tr": {
+          "site_id": "1512",
+          "source_name": "Halk TV",
+          "source_xmltv_id": "HalkTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "298",
+          "source_name": "HALK TV",
+          "source_xmltv_id": "HalkTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "91",
+          "source_name": "HALK TV",
+          "source_xmltv_id": "HalkTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "ASpor.tr": {
+      "name": "A Spor",
+      "sources": {
+        "turksatkablo.com.tr": {
+          "site_id": "2209",
+          "source_name": "A Spor",
+          "source_xmltv_id": "ASpor.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "433",
+          "source_name": "A SPOR",
+          "source_xmltv_id": "ASpor.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "3",
+          "source_name": "A SPOR",
+          "source_xmltv_id": "ASpor.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "FlashHaberTV.tr": {
+      "name": "Flash Haber",
+      "sources": {
+        "digiturk.com.tr": {
+          "site_id": "542",
+          "source_name": "FLASH HABER",
+          "source_xmltv_id": "FlashHaberTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "2979",
+          "source_name": "FLASH HABER",
+          "source_xmltv_id": "FlashHaberTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    }
+  }
+}
