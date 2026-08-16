@@ -1,6 +1,6 @@
 {
   "source_url": "https://iptv-org.github.io/iptv/languages/tur.m3u",
-  "epg_url": "https://raw.githubusercontent.com/YananHelena/iptv/main/epg.xml",
+  "epg_url": "https://raw.githubusercontent.com/YananHelena/iptvson/main/epg.xml",
   "playlist_output": "playlist.m3u",
   "selected_output": "selected_channels.json",
   "status_output": "status.json",
@@ -539,5 +539,12 @@
         "TRTTurk.tr"
       ]
     }
-  ]
+  ],
+  "epg_sources": [
+    "dsmart.com.tr",
+    "turksatkablo.com.tr",
+    "digiturk.com.tr",
+    "tvplus.com.tr"
+  ],
+  "epg_min_coverage": 0.6
 }

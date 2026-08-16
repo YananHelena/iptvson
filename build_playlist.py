@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import difflib
 import json
+import os
 import re
 import sys
 import unicodedata
@@ -232,6 +233,7 @@ def render_channel(spec: dict, entry: Entry) -> tuple[list[str], dict]:
     attrs = []
     if tvg_id:
         attrs.append(f'tvg-id="{escape_attr(tvg_id)}"')
+    attrs.append(f'tvg-name="{escape_attr(spec["name"])}"')
     if logo:
         attrs.append(f'tvg-logo="{escape_attr(logo)}"')
     attrs.append(f'group-title="{escape_attr(spec["group"])}"')
@@ -244,6 +246,7 @@ def render_channel(spec: dict, entry: Entry) -> tuple[list[str], dict]:
         "name": spec["name"],
         "group": spec["group"],
         "tvg_id": tvg_id,
+        "tvg_logo": logo,
         "aliases": spec.get("aliases", []),
         "source_name": entry.name,
         "source_tvg_id": entry.tvg_id,
@@ -285,15 +288,31 @@ def now_tr_iso() -> str:
     return datetime.now(tr_tz).replace(microsecond=0).isoformat()
 
 
+def resolve_epg_url(config: dict) -> str:
+    """Use the current GitHub repository automatically inside Actions.
+
+    This prevents a repository rename/copy from silently leaving x-tvg-url
+    pointed at an old repository.
+    """
+    repository = os.environ.get("GITHUB_REPOSITORY", "").strip()
+    branch = os.environ.get("GITHUB_REF_NAME", "").strip() or "main"
+    if repository:
+        return f"https://raw.githubusercontent.com/{repository}/{branch}/epg.xml"
+    return config.get("epg_url", "").strip()
+
+
 def build(config: dict, source_text: str) -> tuple[str, list[dict], dict]:
     entries = parse_m3u(source_text)
     fuzzy_threshold = float(config.get("fuzzy_threshold", 0.90))
     fuzzy_margin = float(config.get("fuzzy_margin", 0.04))
 
-    epg_url = config.get("epg_url", "").strip()
+    epg_url = resolve_epg_url(config)
     header = "#EXTM3U"
     if epg_url:
-        header += f' x-tvg-url="{escape_attr(epg_url)}"'
+        escaped_epg = escape_attr(epg_url)
+        # x-tvg-url is the common form; url-tvg improves compatibility with
+        # players that recognize the alternative attribute.
+        header += f' x-tvg-url="{escaped_epg}" url-tvg="{escaped_epg}"'
 
     output = [header]
     selected: list[dict] = []

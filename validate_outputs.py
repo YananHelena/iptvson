@@ -3,40 +3,55 @@ from __future__ import annotations
 
 import gzip
 import json
-import sys
+import os
+import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 DIRECTIVES = ("#EXTVLCOPT:", "#EXTHTTP:", "#KODIPROP:")
+TVG_ID_RE = re.compile(r'tvg-id="([^"]+)"')
 
 
-def validate_m3u(path: Path) -> int:
+def canonical(value: str) -> str:
+    return (value or "").split("@", 1)[0]
+
+
+def validate_m3u(path: Path) -> tuple[int, set[str]]:
     data = path.read_bytes()
     if data.startswith(b"\xef\xbb\xbf"):
         raise ValueError("M3U UTF-8 BOM içeriyor")
     if b"\r" in data:
         raise ValueError("M3U CR/CRLF içeriyor")
 
-    text = data.decode("utf-8")
-    lines = [x.strip() for x in text.splitlines() if x.strip()]
+    lines = [x.strip() for x in data.decode("utf-8").splitlines() if x.strip()]
     if not lines or not lines[0].startswith("#EXTM3U"):
         raise ValueError("M3U ilk satırı #EXTM3U değil")
 
+    # Catch the exact bug that existed in the previous repository.
+    repository = os.environ.get("GITHUB_REPOSITORY", "")
+    if repository:
+        expected = f"raw.githubusercontent.com/{repository}/"
+        if expected not in lines[0]:
+            raise ValueError(
+                f"Playlist EPG URL yanlış repo gösteriyor. Beklenen parça: {expected}"
+            )
+
+    ids: set[str] = set()
     count = 0
     i = 1
-    ids = set()
+
     while i < len(lines):
         if not lines[i].startswith("#EXTINF:"):
             raise ValueError(f"EXTINF bekleniyordu: {lines[i]}")
-        extinf = lines[i]
-        if 'tvg-id="' in extinf:
-            tvg_id = extinf.split('tvg-id="', 1)[1].split('"', 1)[0]
-            if tvg_id and tvg_id in ids:
-                raise ValueError(f"Tekrarlanan tvg-id: {tvg_id}")
-            if tvg_id:
-                ids.add(tvg_id)
-        i += 1
 
+        match = TVG_ID_RE.search(lines[i])
+        if match:
+            cid = canonical(match.group(1))
+            if cid in ids:
+                raise ValueError(f"Tekrarlanan tvg-id: {cid}")
+            ids.add(cid)
+
+        i += 1
         while i < len(lines) and lines[i].startswith(DIRECTIVES):
             i += 1
 
@@ -45,42 +60,75 @@ def validate_m3u(path: Path) -> int:
         i += 1
         count += 1
 
-    return count
+    return count, ids
 
 
-def validate_epg_xml(path: Path) -> tuple[int, int]:
+def validate_epg(path: Path, playlist_ids: set[str]) -> tuple[int, int, int]:
     root = ET.parse(path).getroot()
     if root.tag != "tv":
         raise ValueError("EPG kök etiketi <tv> değil")
-    return len(root.findall("channel")), len(root.findall("programme"))
 
+    channel_ids = {
+        canonical(ch.get("id", ""))
+        for ch in root.findall("channel")
+        if ch.get("id")
+    }
+    programme_ids = {
+        canonical(p.get("channel", ""))
+        for p in root.findall("programme")
+        if p.get("channel")
+    }
 
-def validate_gzip(path: Path) -> None:
-    with gzip.open(path, "rb") as f:
-        head = f.read(128)
-    if b"<tv" not in head and b"<?xml" not in head:
-        raise ValueError("epg.xml.gz XMLTV görünmüyor")
+    foreign = programme_ids - playlist_ids
+    if foreign:
+        raise ValueError(f"EPG'de playlist dışı programme channel ID var: {sorted(foreign)}")
+
+    missing_channel_defs = programme_ids - channel_ids
+    if missing_channel_defs:
+        raise ValueError(f"Programme için channel tanımı eksik: {sorted(missing_channel_defs)}")
+
+    return len(channel_ids), len(root.findall("programme")), len(programme_ids)
 
 
 def main() -> int:
-    playlist = Path("playlist.m3u")
-    count = validate_m3u(playlist)
-    print(f"OK playlist.m3u: {count} kanal")
+    playlist_count, playlist_ids = validate_m3u(Path("playlist.m3u"))
+    print(f"OK playlist.m3u: {playlist_count} kanal")
 
-    for json_name in ("selected_channels.json", "status.json", "epg_mapping.json", "epg_status.json"):
-        path = Path(json_name)
-        if path.exists():
-            json.loads(path.read_text(encoding="utf-8"))
-            print(f"OK {json_name}")
+    selected = json.loads(Path("selected_channels.json").read_text(encoding="utf-8"))
+    config = json.loads(Path("channels.json").read_text(encoding="utf-8"))
+    minimum = float(config.get("epg_min_coverage", 0.60))
 
-    if Path("epg.xml").exists():
-        ch, pr = validate_epg_xml(Path("epg.xml"))
-        print(f"OK epg.xml: {ch} kanal, {pr} program")
+    epg_channels, programmes, programme_channels = validate_epg(
+        Path("epg.xml"), playlist_ids
+    )
+    ratio = programme_channels / len(selected) if selected else 0.0
 
-    if Path("epg.xml.gz").exists():
-        validate_gzip(Path("epg.xml.gz"))
-        print("OK epg.xml.gz")
+    if ratio < minimum:
+        raise ValueError(
+            f"EPG kapsamı yetersiz: {programme_channels}/{len(selected)} "
+            f"({ratio:.1%}) < {minimum:.0%}"
+        )
+    if programmes < 50:
+        raise ValueError(f"EPG program sayısı şüpheli derecede düşük: {programmes}")
 
+    with gzip.open("epg.xml.gz", "rb") as f:
+        if b"<tv" not in f.read(256):
+            raise ValueError("epg.xml.gz geçerli XMLTV görünmüyor")
+
+    for json_name in (
+        "status.json",
+        "epg_source_map.json",
+        "epg_coverage.json",
+        "epg_status.json",
+    ):
+        json.loads(Path(json_name).read_text(encoding="utf-8"))
+        print(f"OK {json_name}")
+
+    print(
+        f"OK epg.xml: {epg_channels} channel tanımı, {programmes} program, "
+        f"{programme_channels}/{len(selected)} kanal EPG'li ({ratio:.1%})"
+    )
+    print("OK epg.xml.gz")
     return 0
 
 
