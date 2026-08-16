@@ -1,0 +1,316 @@
+{
+  "mapped": [
+    {
+      "name": "TRT 1",
+      "tvg_id": "TRT1.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "19",
+      "source_name": "TRT 1",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "Kanal D",
+      "tvg_id": "KanalD.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "430",
+      "source_name": "KANAL D",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "Star TV",
+      "tvg_id": "StarTV.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "406",
+      "source_name": "STAR TV",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "ATV",
+      "tvg_id": "ATV.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "300",
+      "source_name": "ATV",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "NOW",
+      "tvg_id": "NOWTV.tr",
+      "site": "dsmart.com.tr",
+      "site_id": "58d29bb0eefad3db9c6062a0",
+      "source_name": "NOW",
+      "reason": "id",
+      "score": 155.0
+    },
+    {
+      "name": "TV8",
+      "tvg_id": "TV8.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "428",
+      "source_name": "TV8",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "360",
+      "tvg_id": "360.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "30",
+      "source_name": "360",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "a2",
+      "tvg_id": "A2TV.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "490",
+      "source_name": "A2",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "CNBC-e",
+      "tvg_id": "CNBCe.tr",
+      "site": "turksatkablo.com.tr",
+      "site_id": "2003",
+      "source_name": "CNBC-e",
+      "reason": "id",
+      "score": 150.0
+    },
+    {
+      "name": "Kanal 7",
+      "tvg_id": "Kanal7.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "439",
+      "source_name": "KANAL 7",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "Beyaz TV",
+      "tvg_id": "BeyazTV.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "188",
+      "source_name": "BEYAZ TV",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "TV100",
+      "tvg_id": "TV100.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "527",
+      "source_name": "tv100",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "TRT 2",
+      "tvg_id": "TRT2.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "308",
+      "source_name": "TRT 2",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "NTV",
+      "tvg_id": "NTV.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "28",
+      "source_name": "NTV",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "Habertürk",
+      "tvg_id": "HaberturkTV.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "31",
+      "source_name": "HABERTURK",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "A Haber",
+      "tvg_id": "AHaber.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "301",
+      "source_name": "AHABER",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "TRT Haber",
+      "tvg_id": "TRTHaber.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "20",
+      "source_name": "TRT HABER",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "24",
+      "tvg_id": "24TV.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "178",
+      "source_name": "24 TV",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "Bloomberg HT",
+      "tvg_id": "BloombergHT.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "24",
+      "source_name": "BLOOMBERG HT",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "Halk TV",
+      "tvg_id": "HalkTV.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "298",
+      "source_name": "HALK TV",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "TELE1",
+      "tvg_id": "Tele1.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "525",
+      "source_name": "TELE 1",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "Haber Global",
+      "tvg_id": "HaberGlobal.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "520",
+      "source_name": "HABERGLOBAL",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "TGRT Haber",
+      "tvg_id": "TGRTHaber.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "84",
+      "source_name": "TGRT HABER",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "TVNET",
+      "tvg_id": "TVNET.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "222",
+      "source_name": "TVNET",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "Flash Haber",
+      "tvg_id": "FlashHaberTV.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "542",
+      "source_name": "FLASH HABER",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "TRT Spor",
+      "tvg_id": "TRTSpor.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "331",
+      "source_name": "TRT SPOR",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "TRT Spor Yıldız",
+      "tvg_id": "TRTSporYildiz.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "533",
+      "source_name": "TRT SPOR YILDIZ",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "A Spor",
+      "tvg_id": "ASpor.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "433",
+      "source_name": "A SPOR",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "TRT Belgesel",
+      "tvg_id": "TRTBelgesel.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "487",
+      "source_name": "TRT BELGESEL",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "TRT Çocuk",
+      "tvg_id": "TRTCocuk.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "243",
+      "source_name": "TRT ÇOCUK",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "Minika Çocuk",
+      "tvg_id": "MinikaCocuk.tr",
+      "site": "tvplus.com.tr",
+      "site_id": "102",
+      "source_name": "MİNİKA ÇOCUK",
+      "reason": "id",
+      "score": 145.0
+    },
+    {
+      "name": "Minika GO",
+      "tvg_id": "MinikaGo.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "291",
+      "source_name": "MİNİKAGO",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "TRT Müzik",
+      "tvg_id": "TRTMuzik.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "261",
+      "source_name": "TRT MÜZİK",
+      "reason": "id",
+      "score": 160.0
+    },
+    {
+      "name": "TRT Türk",
+      "tvg_id": "TRTTurk.tr",
+      "site": "digiturk.com.tr",
+      "site_id": "245",
+      "source_name": "TRT TURK",
+      "reason": "id",
+      "score": 160.0
+    }
+  ],
+  "unmapped": [
+    {
+      "name": "TJK TV",
+      "tvg_id": "TJKTV.tr"
+    }
+  ]
+}

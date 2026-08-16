@@ -1,0 +1,48 @@
+{
+  "updated_at_tr": "2026-08-17T02:09:06+03:00",
+  "source_url": "https://iptv-org.github.io/iptv/languages/tur.m3u",
+  "source_entries": 170,
+  "selected_channels": 35,
+  "missing_channels": [
+    {
+      "name": "Show TV",
+      "reason": "missing"
+    },
+    {
+      "name": "teve2",
+      "reason": "missing"
+    },
+    {
+      "name": "TV8.5",
+      "reason": "missing"
+    },
+    {
+      "name": "CNN Türk",
+      "reason": "missing"
+    },
+    {
+      "name": "A Para",
+      "reason": "missing"
+    },
+    {
+      "name": "Ekotürk",
+      "reason": "missing"
+    },
+    {
+      "name": "Sözcü TV",
+      "reason": "missing"
+    },
+    {
+      "name": "beIN Sports Haber",
+      "reason": "missing"
+    },
+    {
+      "name": "HT Spor",
+      "reason": "missing"
+    },
+    {
+      "name": "Sports TV",
+      "reason": "missing"
+    }
+  ]
+}

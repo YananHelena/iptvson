@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<channels>
+  <channel site="digiturk.com.tr" site_id="19" lang="tr" xmltv_id="TRT1.tr">TRT 1</channel>
+  <channel site="digiturk.com.tr" site_id="430" lang="tr" xmltv_id="KanalD.tr">KANAL D</channel>
+  <channel site="digiturk.com.tr" site_id="406" lang="tr" xmltv_id="StarTV.tr">STAR TV</channel>
+  <channel site="digiturk.com.tr" site_id="300" lang="tr" xmltv_id="ATV.tr">ATV</channel>
+  <channel site="dsmart.com.tr" site_id="58d29bb0eefad3db9c6062a0" lang="tr" xmltv_id="NOWTV.tr">NOW</channel>
+  <channel site="digiturk.com.tr" site_id="428" lang="tr" xmltv_id="TV8.tr">TV8</channel>
+  <channel site="digiturk.com.tr" site_id="30" lang="tr" xmltv_id="360.tr">360</channel>
+  <channel site="digiturk.com.tr" site_id="490" lang="tr" xmltv_id="A2TV.tr">A2</channel>
+  <channel site="turksatkablo.com.tr" site_id="2003" lang="tr" xmltv_id="CNBCe.tr">CNBC-e</channel>
+  <channel site="digiturk.com.tr" site_id="439" lang="tr" xmltv_id="Kanal7.tr">KANAL 7</channel>
+  <channel site="digiturk.com.tr" site_id="188" lang="tr" xmltv_id="BeyazTV.tr">BEYAZ TV</channel>
+  <channel site="digiturk.com.tr" site_id="527" lang="tr" xmltv_id="TV100.tr">tv100</channel>
+  <channel site="digiturk.com.tr" site_id="308" lang="tr" xmltv_id="TRT2.tr">TRT 2</channel>
+  <channel site="digiturk.com.tr" site_id="28" lang="tr" xmltv_id="NTV.tr">NTV</channel>
+  <channel site="digiturk.com.tr" site_id="31" lang="tr" xmltv_id="HaberturkTV.tr">HABERTURK</channel>
+  <channel site="digiturk.com.tr" site_id="301" lang="tr" xmltv_id="AHaber.tr">AHABER</channel>
+  <channel site="digiturk.com.tr" site_id="20" lang="tr" xmltv_id="TRTHaber.tr">TRT HABER</channel>
+  <channel site="digiturk.com.tr" site_id="178" lang="tr" xmltv_id="24TV.tr">24 TV</channel>
+  <channel site="digiturk.com.tr" site_id="24" lang="tr" xmltv_id="BloombergHT.tr">BLOOMBERG HT</channel>
+  <channel site="digiturk.com.tr" site_id="298" lang="tr" xmltv_id="HalkTV.tr">HALK TV</channel>
+  <channel site="digiturk.com.tr" site_id="525" lang="tr" xmltv_id="Tele1.tr">TELE 1</channel>
+  <channel site="digiturk.com.tr" site_id="520" lang="tr" xmltv_id="HaberGlobal.tr">HABERGLOBAL</channel>
+  <channel site="digiturk.com.tr" site_id="84" lang="tr" xmltv_id="TGRTHaber.tr">TGRT HABER</channel>
+  <channel site="digiturk.com.tr" site_id="222" lang="tr" xmltv_id="TVNET.tr">TVNET</channel>
+  <channel site="digiturk.com.tr" site_id="542" lang="tr" xmltv_id="FlashHaberTV.tr">FLASH HABER</channel>
+  <channel site="digiturk.com.tr" site_id="331" lang="tr" xmltv_id="TRTSpor.tr">TRT SPOR</channel>
+  <channel site="digiturk.com.tr" site_id="533" lang="tr" xmltv_id="TRTSporYildiz.tr">TRT SPOR YILDIZ</channel>
+  <channel site="digiturk.com.tr" site_id="433" lang="tr" xmltv_id="ASpor.tr">A SPOR</channel>
+  <channel site="digiturk.com.tr" site_id="487" lang="tr" xmltv_id="TRTBelgesel.tr">TRT BELGESEL</channel>
+  <channel site="digiturk.com.tr" site_id="243" lang="tr" xmltv_id="TRTCocuk.tr">TRT ÇOCUK</channel>
+  <channel site="tvplus.com.tr" site_id="102" lang="tr" logo="https://gbzottvsc13.tvplus.com.tr:33207/CPS/images/universal/film/logo/202506/20250623/81/0940064012305eb7f426_op_0_XL.webp" xmltv_id="MinikaCocuk.tr">MİNİKA ÇOCUK</channel>
+  <channel site="digiturk.com.tr" site_id="291" lang="tr" xmltv_id="MinikaGo.tr">MİNİKAGO</channel>
+  <channel site="digiturk.com.tr" site_id="261" lang="tr" xmltv_id="TRTMuzik.tr">TRT MÜZİK</channel>
+  <channel site="digiturk.com.tr" site_id="245" lang="tr" xmltv_id="TRTTurk.tr">TRT TURK</channel>
+</channels>

@@ -1,0 +1,477 @@
+[
+  {
+    "name": "TRT 1",
+    "group": "Ulusal",
+    "tvg_id": "TRT1.tr",
+    "aliases": [
+      "TRT 1",
+      "TRT1"
+    ],
+    "source_name": "TRT 1",
+    "source_tvg_id": "TRT1.tr@SD",
+    "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "Kanal D",
+    "group": "Ulusal",
+    "tvg_id": "KanalD.tr",
+    "aliases": [
+      "Kanal D",
+      "KANAL D"
+    ],
+    "source_name": "Kanal D",
+    "source_tvg_id": "KanalD.tr@SD",
+    "stream_url": "https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3",
+    "match": "exact"
+  },
+  {
+    "name": "Star TV",
+    "group": "Ulusal",
+    "tvg_id": "StarTV.tr",
+    "aliases": [
+      "Star TV",
+      "STAR TV",
+      "Star"
+    ],
+    "source_name": "Star TV",
+    "source_tvg_id": "StarTV.tr@SD",
+    "stream_url": "https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5",
+    "match": "exact"
+  },
+  {
+    "name": "ATV",
+    "group": "Ulusal",
+    "tvg_id": "ATV.tr",
+    "aliases": [
+      "ATV"
+    ],
+    "source_name": "ATV",
+    "source_tvg_id": "ATV.tr@SD",
+    "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "NOW",
+    "group": "Ulusal",
+    "tvg_id": "NOWTV.tr",
+    "aliases": [
+      "NOW",
+      "NOW TV",
+      "FOX",
+      "FOX TV"
+    ],
+    "source_name": "NOW TV",
+    "source_tvg_id": "NOWTV.tr@SD",
+    "stream_url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "TV8",
+    "group": "Ulusal",
+    "tvg_id": "TV8.tr",
+    "aliases": [
+      "TV8",
+      "TV 8",
+      "TV-8"
+    ],
+    "source_name": "TV 8",
+    "source_tvg_id": "TV8.tr@SD",
+    "stream_url": "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3",
+    "match": "exact"
+  },
+  {
+    "name": "360",
+    "group": "Ulusal",
+    "tvg_id": "360.tr",
+    "aliases": [
+      "360",
+      "360 TV"
+    ],
+    "source_name": "360 TV",
+    "source_tvg_id": "360.tr@SD",
+    "stream_url": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "a2",
+    "group": "Ulusal",
+    "tvg_id": "A2TV.tr",
+    "aliases": [
+      "a2",
+      "A2",
+      "A2 TV",
+      "A2TV"
+    ],
+    "source_name": "A2TV",
+    "source_tvg_id": "A2TV.tr@SD",
+    "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "CNBC-e",
+    "group": "Ulusal",
+    "tvg_id": "CNBCe.tr",
+    "aliases": [
+      "CNBC-e",
+      "CNBC e",
+      "CNBCE"
+    ],
+    "source_name": "CNBC-e",
+    "source_tvg_id": "CNBCe.tr@SD",
+    "stream_url": "https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "Kanal 7",
+    "group": "Ulusal",
+    "tvg_id": "Kanal7.tr",
+    "aliases": [
+      "Kanal 7",
+      "KANAL 7"
+    ],
+    "source_name": "Kanal 7",
+    "source_tvg_id": "Kanal7.tr@SD",
+    "stream_url": "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "Beyaz TV",
+    "group": "Ulusal",
+    "tvg_id": "BeyazTV.tr",
+    "aliases": [
+      "Beyaz TV",
+      "BEYAZ TV"
+    ],
+    "source_name": "Beyaz TV",
+    "source_tvg_id": "BeyazTV.tr@SD",
+    "stream_url": "https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "TV100",
+    "group": "Ulusal",
+    "tvg_id": "TV100.tr",
+    "aliases": [
+      "TV100",
+      "TV 100",
+      "tv100"
+    ],
+    "source_name": "like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21\" group-title=\"Undefined\",TV 100",
+    "source_tvg_id": "TV100.tr@SD",
+    "stream_url": "https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "TRT 2",
+    "group": "Kültür & Yaşam",
+    "tvg_id": "TRT2.tr",
+    "aliases": [
+      "TRT 2",
+      "TRT2"
+    ],
+    "source_name": "TRT 2",
+    "source_tvg_id": "TRT2.tr@SD",
+    "stream_url": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "NTV",
+    "group": "Haber",
+    "tvg_id": "NTV.tr",
+    "aliases": [
+      "NTV"
+    ],
+    "source_name": "NTV",
+    "source_tvg_id": "NTV.tr@SD",
+    "stream_url": "https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web",
+    "match": "exact"
+  },
+  {
+    "name": "Habertürk",
+    "group": "Haber",
+    "tvg_id": "HaberturkTV.tr",
+    "aliases": [
+      "Habertürk",
+      "Haberturk",
+      "Habertürk TV",
+      "Haberturk TV"
+    ],
+    "source_name": "Habertürk TV",
+    "source_tvg_id": "HaberturkTV.tr@SD",
+    "stream_url": "https://tv.ensonhaber.com/haberturk/haberturk.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "A Haber",
+    "group": "Haber",
+    "tvg_id": "AHaber.tr",
+    "aliases": [
+      "A Haber",
+      "AHABER",
+      "A HABER"
+    ],
+    "source_name": "A Haber",
+    "source_tvg_id": "AHaber.tr@SD",
+    "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "TRT Haber",
+    "group": "Haber",
+    "tvg_id": "TRTHaber.tr",
+    "aliases": [
+      "TRT Haber",
+      "TRT HABER"
+    ],
+    "source_name": "TRT Haber",
+    "source_tvg_id": "TRTHaber.tr@SD",
+    "stream_url": "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "24",
+    "group": "Haber",
+    "tvg_id": "24TV.tr",
+    "aliases": [
+      "24",
+      "24 TV",
+      "Kanal 24"
+    ],
+    "source_name": "TV 24",
+    "source_tvg_id": "24TV.tr@SD",
+    "stream_url": "https://turkmedya-live.ercdn.net/tv24/tv24.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "Bloomberg HT",
+    "group": "Haber",
+    "tvg_id": "BloombergHT.tr",
+    "aliases": [
+      "Bloomberg HT",
+      "BLOOMBERG HT"
+    ],
+    "source_name": "BloombergHT",
+    "source_tvg_id": "BloombergHT.tr@SD",
+    "stream_url": "https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "Halk TV",
+    "group": "Haber",
+    "tvg_id": "HalkTV.tr",
+    "aliases": [
+      "Halk TV",
+      "HALK TV"
+    ],
+    "source_name": "Halk TV",
+    "source_tvg_id": "HalkTV.tr@SD",
+    "stream_url": "https://halktv-live.daioncdn.net/halktv/halktv.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "TELE1",
+    "group": "Haber",
+    "tvg_id": "Tele1.tr",
+    "aliases": [
+      "TELE1",
+      "TELE 1",
+      "Tele1"
+    ],
+    "source_name": "Tele 1",
+    "source_tvg_id": "Tele1.tr@SD",
+    "stream_url": "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "Haber Global",
+    "group": "Haber",
+    "tvg_id": "HaberGlobal.tr",
+    "aliases": [
+      "Haber Global",
+      "HABERGLOBAL",
+      "HABER GLOBAL"
+    ],
+    "source_name": "Haber Global",
+    "source_tvg_id": "HaberGlobal.tr@SD",
+    "stream_url": "https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "TGRT Haber",
+    "group": "Haber",
+    "tvg_id": "TGRTHaber.tr",
+    "aliases": [
+      "TGRT Haber",
+      "TGRT HABER"
+    ],
+    "source_name": "TGRT Haber",
+    "source_tvg_id": "TGRTHaber.tr@SD",
+    "stream_url": "https://canli.tgrthaber.com/tgrt.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "TVNET",
+    "group": "Haber",
+    "tvg_id": "TVNET.tr",
+    "aliases": [
+      "TVNET",
+      "TV Net"
+    ],
+    "source_name": "TVNET",
+    "source_tvg_id": "TVNET.tr@SD",
+    "stream_url": "https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "Flash Haber",
+    "group": "Haber",
+    "tvg_id": "FlashHaberTV.tr",
+    "aliases": [
+      "Flash Haber",
+      "FLASH HABER",
+      "Flash Haber TV"
+    ],
+    "source_name": "Flash Haber TV",
+    "source_tvg_id": "FlashHaberTV.tr@SD",
+    "stream_url": "https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "TRT Spor",
+    "group": "Spor",
+    "tvg_id": "TRTSpor.tr",
+    "aliases": [
+      "TRT Spor",
+      "TRT SPOR"
+    ],
+    "source_name": "TRT Spor",
+    "source_tvg_id": "TRTSpor.tr@SD",
+    "stream_url": "https://corestream.siteyaptim.live/trt-spor/index.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "TRT Spor Yıldız",
+    "group": "Spor",
+    "tvg_id": "TRTSporYildiz.tr",
+    "aliases": [
+      "TRT Spor Yıldız",
+      "TRT Spor Yildiz",
+      "TRT SPOR YILDIZ"
+    ],
+    "source_name": "TRT Spor Yildiz",
+    "source_tvg_id": "TRTSporYildiz.tr@SD",
+    "stream_url": "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor",
+    "match": "exact"
+  },
+  {
+    "name": "A Spor",
+    "group": "Spor",
+    "tvg_id": "ASpor.tr",
+    "aliases": [
+      "A Spor",
+      "A SPOR"
+    ],
+    "source_name": "A Spor",
+    "source_tvg_id": "ASpor.tr@SD",
+    "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "TJK TV",
+    "group": "Spor",
+    "tvg_id": "TJKTV.tr",
+    "aliases": [
+      "TJK TV",
+      "TJK"
+    ],
+    "source_name": "TJK TV",
+    "source_tvg_id": "TJKTV.tr@SD",
+    "stream_url": "https://tjktv-live.tjk.org/tjktv.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "TRT Belgesel",
+    "group": "Belgesel",
+    "tvg_id": "TRTBelgesel.tr",
+    "aliases": [
+      "TRT Belgesel",
+      "TRT BELGESEL"
+    ],
+    "source_name": "TRT Belgesel",
+    "source_tvg_id": "TRTBelgesel.tr@SD",
+    "stream_url": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "TRT Çocuk",
+    "group": "Çocuk",
+    "tvg_id": "TRTCocuk.tr",
+    "aliases": [
+      "TRT Çocuk",
+      "TRT Cocuk",
+      "TRT ÇOCUK"
+    ],
+    "source_name": "TRT Cocuk",
+    "source_tvg_id": "TRTCocuk.tr@SD",
+    "stream_url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "Minika Çocuk",
+    "group": "Çocuk",
+    "tvg_id": "MinikaCocuk.tr",
+    "aliases": [
+      "Minika Çocuk",
+      "Minika Cocuk",
+      "MİNİKA ÇOCUK"
+    ],
+    "source_name": "Minika Cocuk",
+    "source_tvg_id": "MinikaCocuk.tr@SD",
+    "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "Minika GO",
+    "group": "Çocuk",
+    "tvg_id": "MinikaGo.tr",
+    "aliases": [
+      "Minika GO",
+      "MinikaGo",
+      "MİNİKAGO",
+      "Minika Go"
+    ],
+    "source_name": "Minika Go",
+    "source_tvg_id": "MinikaGo.tr@SD",
+    "stream_url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "TRT Müzik",
+    "group": "Müzik",
+    "tvg_id": "TRTMuzik.tr",
+    "aliases": [
+      "TRT Müzik",
+      "TRT Muzik",
+      "TRT MÜZİK"
+    ],
+    "source_name": "TRT Müzik",
+    "source_tvg_id": "TRTMuzik.tr@SD",
+    "stream_url": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+    "match": "exact"
+  },
+  {
+    "name": "TRT Türk",
+    "group": "Kültür & Yaşam",
+    "tvg_id": "TRTTurk.tr",
+    "aliases": [
+      "TRT Türk",
+      "TRT Turk",
+      "TRT TURK"
+    ],
+    "source_name": "TRT Türk",
+    "source_tvg_id": "TRTTurk.tr@SD",
+    "stream_url": "https://tv-trtturk.medya.trt.com.tr/master.m3u8",
+    "match": "exact"
+  }
+]
