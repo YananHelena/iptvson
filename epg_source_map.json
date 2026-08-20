@@ -2,7 +2,7 @@
   "sources": {
     "dsmart.com.tr": {
       "available_definitions": 100,
-      "mapped_channels": 28
+      "mapped_channels": 29
     },
     "turksatkablo.com.tr": {
       "available_definitions": 177,
@@ -10,11 +10,11 @@
     },
     "digiturk.com.tr": {
       "available_definitions": 112,
-      "mapped_channels": 33
+      "mapped_channels": 34
     },
     "tvplus.com.tr": {
       "available_definitions": 150,
-      "mapped_channels": 34
+      "mapped_channels": 35
     }
   },
   "channels": {
@@ -673,6 +673,32 @@
           "site_id": "92",
           "source_name": "TVNET",
           "source_xmltv_id": "TVNET.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "SozcuTV.tr": {
+      "name": "Sözcü TV",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "63ecd91acfef0b02d2687aed",
+          "source_name": "SZC",
+          "source_xmltv_id": "SozcuTV.tr@SD",
+          "match_reason": "id",
+          "match_score": 120.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "544",
+          "source_name": "SÖZCÜ TV",
+          "source_xmltv_id": "SozcuTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "4294",
+          "source_name": "SÖZCÜ TV",
+          "source_xmltv_id": "SozcuTV.tr@SD",
           "match_reason": "id+name",
           "match_score": 165.0
         }

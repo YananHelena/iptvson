@@ -348,6 +348,21 @@
     "match": "exact"
   },
   {
+    "name": "Sözcü TV",
+    "group": "Haber",
+    "tvg_id": "SozcuTV.tr",
+    "tvg_logo": "https://i.imgur.com/BxpdvsG.png",
+    "aliases": [
+      "Sözcü TV",
+      "Sozcu TV",
+      "SÖZCÜ TV"
+    ],
+    "source_name": "Sozcu TV",
+    "source_tvg_id": "SozcuTV.tr@SD",
+    "stream_url": "http://5.178.103.239:55/yt1/szctv.m3u8",
+    "match": "exact"
+  },
+  {
     "name": "Flash Haber",
     "group": "Haber",
     "tvg_id": "FlashHaberTV.tr",

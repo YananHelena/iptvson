@@ -1,8 +1,8 @@
 {
-  "updated_at_tr": "2026-08-19T06:33:40+03:00",
+  "updated_at_tr": "2026-08-20T06:33:23+03:00",
   "source_url": "https://iptv-org.github.io/iptv/languages/tur.m3u",
-  "source_entries": 172,
-  "selected_channels": 35,
+  "source_entries": 173,
+  "selected_channels": 36,
   "missing_channels": [
     {
       "name": "Show TV",
@@ -26,10 +26,6 @@
     },
     {
       "name": "Ekotürk",
-      "reason": "missing"
-    },
-    {
-      "name": "Sözcü TV",
       "reason": "missing"
     },
     {
