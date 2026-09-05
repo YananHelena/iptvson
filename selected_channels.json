@@ -142,7 +142,7 @@
     ],
     "source_name": "Kanal 7",
     "source_tvg_id": "Kanal7.tr@SD",
-    "stream_url": "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8",
+    "stream_url": "https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8",
     "match": "exact"
   },
   {
