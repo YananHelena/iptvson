@@ -2,19 +2,19 @@
   "sources": {
     "dsmart.com.tr": {
       "available_definitions": 100,
-      "mapped_channels": 28
+      "mapped_channels": 29
     },
     "turksatkablo.com.tr": {
       "available_definitions": 177,
-      "mapped_channels": 33
+      "mapped_channels": 34
     },
     "digiturk.com.tr": {
       "available_definitions": 112,
-      "mapped_channels": 33
+      "mapped_channels": 34
     },
     "tvplus.com.tr": {
       "available_definitions": 150,
-      "mapped_channels": 34
+      "mapped_channels": 35
     }
   },
   "channels": {
@@ -607,6 +607,39 @@
           "site_id": "5",
           "source_name": "HABER GLOBAL",
           "source_xmltv_id": "HaberGlobal.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "Ekoturk.tr": {
+      "name": "Ekotürk",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "5c6e8e0ecfef0b613d9ff782",
+          "source_name": "Ekotürk",
+          "source_xmltv_id": "Ekoturk.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "2615",
+          "source_name": "Ekotürk",
+          "source_xmltv_id": "",
+          "match_reason": "name",
+          "match_score": 45.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "521",
+          "source_name": "EKOTURK",
+          "source_xmltv_id": "Ekoturk.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "100",
+          "source_name": "EKOTÜRK",
+          "source_xmltv_id": "Ekoturk.tr@SD",
           "match_reason": "id+name",
           "match_score": 165.0
         }
