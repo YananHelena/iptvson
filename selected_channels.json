@@ -446,7 +446,7 @@
     ],
     "source_name": "TRT Belgesel",
     "source_tvg_id": "TRTBelgesel.tr@SD",
-    "stream_url": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8",
+    "stream_url": "http://hls127.freeott.top:8080/TRT_BELGESEL_TR/video.m3u8",
     "match": "exact"
   },
   {
