@@ -160,21 +160,6 @@
     "match": "exact"
   },
   {
-    "name": "TV100",
-    "group": "Ulusal",
-    "tvg_id": "TV100.tr",
-    "tvg_logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/960px-TV100_logo.png",
-    "aliases": [
-      "TV100",
-      "TV 100",
-      "tv100"
-    ],
-    "source_name": "like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21\" group-title=\"Undefined\",TV 100 (Turkiye)",
-    "source_tvg_id": "TV100.tr@SD",
-    "stream_url": "https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8",
-    "match": "exact"
-  },
-  {
     "name": "TRT 2",
     "group": "Kültür & Yaşam",
     "tvg_id": "TRT2.tr",

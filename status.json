@@ -1,8 +1,8 @@
 {
-  "updated_at_tr": "2026-10-10T09:47:13+03:00",
+  "updated_at_tr": "2026-10-11T09:54:15+03:00",
   "source_url": "https://iptv-org.github.io/iptv/languages/tur.m3u",
-  "source_entries": 176,
-  "selected_channels": 36,
+  "source_entries": 177,
+  "selected_channels": 35,
   "missing_channels": [
     {
       "name": "Show TV",
@@ -10,6 +10,10 @@
     },
     {
       "name": "teve2",
+      "reason": "missing"
+    },
+    {
+      "name": "TV100",
       "reason": "missing"
     },
     {

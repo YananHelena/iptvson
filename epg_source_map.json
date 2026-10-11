@@ -2,19 +2,19 @@
   "sources": {
     "dsmart.com.tr": {
       "available_definitions": 100,
-      "mapped_channels": 29
+      "mapped_channels": 28
     },
     "turksatkablo.com.tr": {
       "available_definitions": 177,
-      "mapped_channels": 34
+      "mapped_channels": 33
     },
     "digiturk.com.tr": {
       "available_definitions": 112,
-      "mapped_channels": 34
+      "mapped_channels": 33
     },
     "tvplus.com.tr": {
       "available_definitions": 150,
-      "mapped_channels": 35
+      "mapped_channels": 34
     }
   },
   "channels": {
@@ -310,39 +310,6 @@
           "site_id": "90",
           "source_name": "KANAL 7",
           "source_xmltv_id": "Kanal7.tr@SD",
-          "match_reason": "id+name",
-          "match_score": 165.0
-        }
-      }
-    },
-    "TV100.tr": {
-      "name": "TV100",
-      "sources": {
-        "dsmart.com.tr": {
-          "site_id": "5ccfd6adcfef0b6021816941",
-          "source_name": "Tv 100",
-          "source_xmltv_id": "TV100.tr@SD",
-          "match_reason": "id+compact_name",
-          "match_score": 160.0
-        },
-        "turksatkablo.com.tr": {
-          "site_id": "1412",
-          "source_name": "tv 100",
-          "source_xmltv_id": "TV100.tr@SD",
-          "match_reason": "id+compact_name",
-          "match_score": 160.0
-        },
-        "digiturk.com.tr": {
-          "site_id": "527",
-          "source_name": "tv100",
-          "source_xmltv_id": "TV100.tr@SD",
-          "match_reason": "id+name",
-          "match_score": 165.0
-        },
-        "tvplus.com.tr": {
-          "site_id": "179",
-          "source_name": "TV100",
-          "source_xmltv_id": "TV100.tr@SD",
           "match_reason": "id+name",
           "match_score": 165.0
         }
