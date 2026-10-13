@@ -1,9 +1,9 @@
 {
-  "updated_at_tr": "2026-10-12T10:07:21+03:00",
+  "updated_at_tr": "2026-10-13T10:32:42+03:00",
   "state": "updated",
   "channels": 35,
-  "channels_with_programmes": 33,
-  "coverage_ratio": 0.9429,
-  "programmes": 1922,
+  "channels_with_programmes": 31,
+  "coverage_ratio": 0.8857,
+  "programmes": 1401,
   "minimum_coverage_ratio": 0.6
 }
