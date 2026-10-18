@@ -6,11 +6,11 @@
     },
     "turksatkablo.com.tr": {
       "available_definitions": 177,
-      "mapped_channels": 33
+      "mapped_channels": 34
     },
     "digiturk.com.tr": {
       "available_definitions": 112,
-      "mapped_channels": 33
+      "mapped_channels": 34
     },
     "tvplus.com.tr": {
       "available_definitions": 150,
@@ -1034,6 +1034,25 @@
           "site_id": "91",
           "source_name": "HALK TV",
           "source_xmltv_id": "HalkTV.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "beINSportsHaber.tr": {
+      "name": "beIN Sports Haber",
+      "sources": {
+        "turksatkablo.com.tr": {
+          "site_id": "2114",
+          "source_name": "beIN SPORTS HABER",
+          "source_xmltv_id": "beINSportsHaber.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "541",
+          "source_name": "beIN SPORTS HABER",
+          "source_xmltv_id": "beINSportsHaber.tr@SD",
           "match_reason": "id+name",
           "match_score": 165.0
         }

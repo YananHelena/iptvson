@@ -49,6 +49,8 @@ https://canli.tgrthaber.com/tgrt.m3u8
 https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
 #EXTINF:-1 tvg-id="FlashHaberTV.tr" tvg-name="Flash Haber" group-title="Haber",Flash Haber
 https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="beINSportsHaber.tr" tvg-name="beIN Sports Haber" tvg-logo="https://i.imgur.com/QWo0x7S.jpg" group-title="Spor",beIN Sports Haber
+https://andro.mangeinde4.lat/checklist/androstreamlivebsh.m3u8
 #EXTINF:-1 tvg-id="TRTSpor.tr" tvg-name="TRT Spor" tvg-logo="https://i.imgur.com/6tv0zxh.png" group-title="Spor",TRT Spor
 https://corestream.siteyaptim.live/trt-spor/index.m3u8
 #EXTINF:-1 tvg-id="TRTSporYildiz.tr" tvg-name="TRT Spor Yıldız" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/960px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png" group-title="Spor",TRT Spor Yıldız
