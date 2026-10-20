@@ -2,19 +2,19 @@
   "sources": {
     "dsmart.com.tr": {
       "available_definitions": 100,
-      "mapped_channels": 28
+      "mapped_channels": 27
     },
     "turksatkablo.com.tr": {
       "available_definitions": 177,
-      "mapped_channels": 34
+      "mapped_channels": 33
     },
     "digiturk.com.tr": {
       "available_definitions": 112,
-      "mapped_channels": 34
+      "mapped_channels": 33
     },
     "tvplus.com.tr": {
       "available_definitions": 150,
-      "mapped_channels": 34
+      "mapped_channels": 33
     }
   },
   "channels": {
@@ -112,39 +112,6 @@
           "site_id": "89",
           "source_name": "STAR TV",
           "source_xmltv_id": "StarTV.tr@SD",
-          "match_reason": "id+name",
-          "match_score": 165.0
-        }
-      }
-    },
-    "NOWTV.tr": {
-      "name": "NOW",
-      "sources": {
-        "dsmart.com.tr": {
-          "site_id": "58d29bb0eefad3db9c6062a0",
-          "source_name": "NOW",
-          "source_xmltv_id": "NOWTV.tr@SD",
-          "match_reason": "id+name",
-          "match_score": 165.0
-        },
-        "turksatkablo.com.tr": {
-          "site_id": "1205",
-          "source_name": "NOW",
-          "source_xmltv_id": "",
-          "match_reason": "name",
-          "match_score": 45.0
-        },
-        "digiturk.com.tr": {
-          "site_id": "18",
-          "source_name": "FOX",
-          "source_xmltv_id": "Fox.tr@SD",
-          "match_reason": "name",
-          "match_score": 45.0
-        },
-        "tvplus.com.tr": {
-          "site_id": "93",
-          "source_name": "NOW",
-          "source_xmltv_id": "NOWTV.tr@SD",
           "match_reason": "id+name",
           "match_score": 165.0
         }

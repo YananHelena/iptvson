@@ -1,11 +1,15 @@
 {
-  "updated_at_tr": "2026-10-19T08:52:18+03:00",
+  "updated_at_tr": "2026-10-20T08:44:36+03:00",
   "source_url": "https://iptv-org.github.io/iptv/languages/tur.m3u",
-  "source_entries": 184,
-  "selected_channels": 36,
+  "source_entries": 183,
+  "selected_channels": 35,
   "missing_channels": [
     {
       "name": "Show TV",
+      "reason": "missing"
+    },
+    {
+      "name": "NOW",
       "reason": "missing"
     },
     {
