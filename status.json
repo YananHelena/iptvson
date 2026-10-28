@@ -1,8 +1,8 @@
 {
-  "updated_at_tr": "2026-10-27T09:04:01+03:00",
+  "updated_at_tr": "2026-10-28T09:42:18+03:00",
   "source_url": "https://iptv-org.github.io/iptv/languages/tur.m3u",
-  "source_entries": 186,
-  "selected_channels": 36,
+  "source_entries": 174,
+  "selected_channels": 35,
   "missing_channels": [
     {
       "name": "Show TV",
@@ -30,6 +30,10 @@
     },
     {
       "name": "Sözcü TV",
+      "reason": "missing"
+    },
+    {
+      "name": "beIN Sports Haber",
       "reason": "missing"
     },
     {

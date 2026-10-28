@@ -364,21 +364,6 @@
     "match": "exact"
   },
   {
-    "name": "beIN Sports Haber",
-    "group": "Spor",
-    "tvg_id": "beINSportsHaber.tr",
-    "tvg_logo": "https://i.imgur.com/QWo0x7S.jpg",
-    "aliases": [
-      "beIN Sports Haber",
-      "BEIN SPORTS HABER",
-      "beIN SPORTS HABER"
-    ],
-    "source_name": "beIN Sports Haber",
-    "source_tvg_id": "beINSportsHaber.tr@SD",
-    "stream_url": "https://andro.mangeinde4.lat/checklist/androstreamlivebsh.m3u8",
-    "match": "exact"
-  },
-  {
     "name": "TRT Spor",
     "group": "Spor",
     "tvg_id": "TRTSpor.tr",
