@@ -1,18 +1,18 @@
 {
-  "generated_at_utc": "2026-11-07T06:58:30+00:00",
+  "generated_at_utc": "2026-11-08T07:03:55+00:00",
   "selected_channels": 35,
-  "channels_with_programmes": 31,
-  "coverage_ratio": 0.8857,
-  "total_programmes": 1122,
+  "channels_with_programmes": 34,
+  "coverage_ratio": 0.9714,
+  "total_programmes": 1494,
   "sources_used": {
-    "tvplus.com.tr": 31
+    "tvplus.com.tr": 34
   },
   "channels": [
     {
       "name": "TRT 1",
       "tvg_id": "TRT1.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 39,
+      "programme_count": 41,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -31,8 +31,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 39,
-          "current_or_future_programmes": 39
+          "programmes": 41,
+          "current_or_future_programmes": 41
         }
       ]
     },
@@ -40,7 +40,7 @@
       "name": "Kanal D",
       "tvg_id": "KanalD.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 23,
+      "programme_count": 22,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -59,8 +59,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 23,
-          "current_or_future_programmes": 23
+          "programmes": 22,
+          "current_or_future_programmes": 22
         }
       ]
     },
@@ -68,7 +68,7 @@
       "name": "Star TV",
       "tvg_id": "StarTV.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 16,
+      "programme_count": 12,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -87,8 +87,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 16,
-          "current_or_future_programmes": 16
+          "programmes": 12,
+          "current_or_future_programmes": 12
         }
       ]
     },
@@ -123,8 +123,8 @@
     {
       "name": "NOW",
       "tvg_id": "NOW.tr",
-      "source": null,
-      "programme_count": 0,
+      "source": "tvplus.com.tr",
+      "programme_count": 14,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -143,8 +143,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 0,
-          "current_or_future_programmes": 0
+          "programmes": 14,
+          "current_or_future_programmes": 14
         }
       ]
     },
@@ -152,7 +152,7 @@
       "name": "TV8",
       "tvg_id": "TV8.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 12,
+      "programme_count": 11,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -171,8 +171,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 12,
-          "current_or_future_programmes": 12
+          "programmes": 11,
+          "current_or_future_programmes": 11
         }
       ]
     },
@@ -236,7 +236,7 @@
       "name": "CNBC-e",
       "tvg_id": "CNBCe.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 36,
+      "programme_count": 71,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -255,16 +255,16 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 36,
-          "current_or_future_programmes": 36
+          "programmes": 71,
+          "current_or_future_programmes": 71
         }
       ]
     },
     {
       "name": "Kanal 7",
       "tvg_id": "Kanal7.tr",
-      "source": null,
-      "programme_count": 0,
+      "source": "tvplus.com.tr",
+      "programme_count": 13,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -283,8 +283,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 0,
-          "current_or_future_programmes": 0
+          "programmes": 13,
+          "current_or_future_programmes": 13
         }
       ]
     },
@@ -292,7 +292,7 @@
       "name": "Beyaz TV",
       "tvg_id": "BeyazTV.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 16,
+      "programme_count": 11,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -311,8 +311,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 16,
-          "current_or_future_programmes": 16
+          "programmes": 11,
+          "current_or_future_programmes": 11
         }
       ]
     },
@@ -320,7 +320,7 @@
       "name": "TRT 2",
       "tvg_id": "TRT2.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 28,
+      "programme_count": 30,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -339,8 +339,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 28,
-          "current_or_future_programmes": 28
+          "programmes": 30,
+          "current_or_future_programmes": 30
         }
       ]
     },
@@ -348,7 +348,7 @@
       "name": "NTV",
       "tvg_id": "NTV.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 78,
+      "programme_count": 75,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -367,8 +367,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 78,
-          "current_or_future_programmes": 78
+          "programmes": 75,
+          "current_or_future_programmes": 75
         }
       ]
     },
@@ -376,7 +376,7 @@
       "name": "Habertürk",
       "tvg_id": "HaberturkTV.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 21,
+      "programme_count": 37,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -395,8 +395,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 21,
-          "current_or_future_programmes": 21
+          "programmes": 37,
+          "current_or_future_programmes": 37
         }
       ]
     },
@@ -404,6 +404,34 @@
       "name": "A Haber",
       "tvg_id": "AHaber.tr",
       "source": "tvplus.com.tr",
+      "programme_count": 27,
+      "attempts": [
+        {
+          "source": "dsmart.com.tr",
+          "programmes": 0,
+          "current_or_future_programmes": 0
+        },
+        {
+          "source": "turksatkablo.com.tr",
+          "programmes": 0,
+          "current_or_future_programmes": 0
+        },
+        {
+          "source": "digiturk.com.tr",
+          "programmes": 0,
+          "current_or_future_programmes": 0
+        },
+        {
+          "source": "tvplus.com.tr",
+          "programmes": 27,
+          "current_or_future_programmes": 27
+        }
+      ]
+    },
+    {
+      "name": "TRT Haber",
+      "tvg_id": "TRTHaber.tr",
+      "source": "tvplus.com.tr",
       "programme_count": 21,
       "attempts": [
         {
@@ -425,34 +453,6 @@
           "source": "tvplus.com.tr",
           "programmes": 21,
           "current_or_future_programmes": 21
-        }
-      ]
-    },
-    {
-      "name": "TRT Haber",
-      "tvg_id": "TRTHaber.tr",
-      "source": "tvplus.com.tr",
-      "programme_count": 23,
-      "attempts": [
-        {
-          "source": "dsmart.com.tr",
-          "programmes": 0,
-          "current_or_future_programmes": 0
-        },
-        {
-          "source": "turksatkablo.com.tr",
-          "programmes": 0,
-          "current_or_future_programmes": 0
-        },
-        {
-          "source": "digiturk.com.tr",
-          "programmes": 0,
-          "current_or_future_programmes": 0
-        },
-        {
-          "source": "tvplus.com.tr",
-          "programmes": 23,
-          "current_or_future_programmes": 23
         }
       ]
     },
@@ -487,8 +487,8 @@
     {
       "name": "Bloomberg HT",
       "tvg_id": "BloombergHT.tr",
-      "source": null,
-      "programme_count": 0,
+      "source": "tvplus.com.tr",
+      "programme_count": 33,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -507,8 +507,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 0,
-          "current_or_future_programmes": 0
+          "programmes": 33,
+          "current_or_future_programmes": 33
         }
       ]
     },
@@ -572,7 +572,7 @@
       "name": "Haber Global",
       "tvg_id": "HaberGlobal.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 9,
+      "programme_count": 24,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -591,8 +591,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 9,
-          "current_or_future_programmes": 9
+          "programmes": 24,
+          "current_or_future_programmes": 24
         }
       ]
     },
@@ -600,7 +600,7 @@
       "name": "Ekotürk",
       "tvg_id": "Ekoturk.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 25,
+      "programme_count": 31,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -619,8 +619,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 25,
-          "current_or_future_programmes": 25
+          "programmes": 31,
+          "current_or_future_programmes": 31
         }
       ]
     },
@@ -628,7 +628,7 @@
       "name": "TGRT Haber",
       "tvg_id": "TGRTHaber.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 35,
+      "programme_count": 30,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -647,8 +647,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 35,
-          "current_or_future_programmes": 35
+          "programmes": 30,
+          "current_or_future_programmes": 30
         }
       ]
     },
@@ -656,7 +656,7 @@
       "name": "TVNET",
       "tvg_id": "TVNET.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 43,
+      "programme_count": 37,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -675,8 +675,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 43,
-          "current_or_future_programmes": 43
+          "programmes": 37,
+          "current_or_future_programmes": 37
         }
       ]
     },
@@ -684,7 +684,7 @@
       "name": "Flash Haber",
       "tvg_id": "FlashHaberTV.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 101,
+      "programme_count": 202,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -703,8 +703,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 101,
-          "current_or_future_programmes": 101
+          "programmes": 202,
+          "current_or_future_programmes": 202
         }
       ]
     },
@@ -712,7 +712,7 @@
       "name": "TRT Spor",
       "tvg_id": "TRTSpor.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 20,
+      "programme_count": 2,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -731,8 +731,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 20,
-          "current_or_future_programmes": 20
+          "programmes": 2,
+          "current_or_future_programmes": 2
         }
       ]
     },
@@ -740,7 +740,7 @@
       "name": "TRT Spor Yıldız",
       "tvg_id": "TRTSporYildiz.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 44,
+      "programme_count": 42,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -759,8 +759,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 44,
-          "current_or_future_programmes": 44
+          "programmes": 42,
+          "current_or_future_programmes": 42
         }
       ]
     },
@@ -768,7 +768,7 @@
       "name": "A Spor",
       "tvg_id": "ASpor.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 15,
+      "programme_count": 13,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -787,8 +787,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 15,
-          "current_or_future_programmes": 15
+          "programmes": 13,
+          "current_or_future_programmes": 13
         }
       ]
     },
@@ -824,7 +824,7 @@
       "name": "TRT Belgesel",
       "tvg_id": "TRTBelgesel.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 33,
+      "programme_count": 29,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -843,8 +843,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 33,
-          "current_or_future_programmes": 33
+          "programmes": 29,
+          "current_or_future_programmes": 29
         }
       ]
     },
@@ -908,7 +908,7 @@
       "name": "Minika GO",
       "tvg_id": "MinikaGo.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 125,
+      "programme_count": 247,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -927,8 +927,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 125,
-          "current_or_future_programmes": 125
+          "programmes": 247,
+          "current_or_future_programmes": 247
         }
       ]
     },
@@ -936,7 +936,7 @@
       "name": "TRT Müzik",
       "tvg_id": "TRTMuzik.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 31,
+      "programme_count": 90,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -955,8 +955,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 31,
-          "current_or_future_programmes": 31
+          "programmes": 90,
+          "current_or_future_programmes": 90
         }
       ]
     },
@@ -964,7 +964,7 @@
       "name": "TRT Türk",
       "tvg_id": "TRTTurk.tr",
       "source": "tvplus.com.tr",
-      "programme_count": 40,
+      "programme_count": 41,
       "attempts": [
         {
           "source": "dsmart.com.tr",
@@ -983,8 +983,8 @@
         },
         {
           "source": "tvplus.com.tr",
-          "programmes": 40,
-          "current_or_future_programmes": 40
+          "programmes": 41,
+          "current_or_future_programmes": 41
         }
       ]
     }
