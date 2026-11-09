@@ -2,19 +2,19 @@
   "sources": {
     "dsmart.com.tr": {
       "available_definitions": 100,
-      "mapped_channels": 28
+      "mapped_channels": 29
     },
     "turksatkablo.com.tr": {
       "available_definitions": 177,
-      "mapped_channels": 33
+      "mapped_channels": 34
     },
     "digiturk.com.tr": {
       "available_definitions": 112,
-      "mapped_channels": 33
+      "mapped_channels": 34
     },
     "tvplus.com.tr": {
       "available_definitions": 150,
-      "mapped_channels": 34
+      "mapped_channels": 35
     }
   },
   "channels": {
@@ -343,6 +343,39 @@
           "site_id": "83",
           "source_name": "TRT 2",
           "source_xmltv_id": "TRT2.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        }
+      }
+    },
+    "CNNTurk.tr": {
+      "name": "CNN Türk",
+      "sources": {
+        "dsmart.com.tr": {
+          "site_id": "59dca1f3cfef0b4d80a47a5f",
+          "source_name": "CNN Türk SD",
+          "source_xmltv_id": "CNNTurk.tr@SD",
+          "match_reason": "id",
+          "match_score": 120.0
+        },
+        "turksatkablo.com.tr": {
+          "site_id": "2813",
+          "source_name": "CNN Türk",
+          "source_xmltv_id": "",
+          "match_reason": "name",
+          "match_score": 45.0
+        },
+        "digiturk.com.tr": {
+          "site_id": "29",
+          "source_name": "CNN TURK",
+          "source_xmltv_id": "CNNTurk.tr@SD",
+          "match_reason": "id+name",
+          "match_score": 165.0
+        },
+        "tvplus.com.tr": {
+          "site_id": "158",
+          "source_name": "CNN TÜRK",
+          "source_xmltv_id": "CNNTurk.tr@SD",
           "match_reason": "id+name",
           "match_score": 165.0
         }

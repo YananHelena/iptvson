@@ -1,8 +1,8 @@
 {
-  "updated_at_tr": "2026-11-08T09:59:29+03:00",
+  "updated_at_tr": "2026-11-09T10:43:23+03:00",
   "source_url": "https://iptv-org.github.io/iptv/languages/tur.m3u",
-  "source_entries": 174,
-  "selected_channels": 35,
+  "source_entries": 175,
+  "selected_channels": 36,
   "missing_channels": [
     {
       "name": "Show TV",
@@ -18,10 +18,6 @@
     },
     {
       "name": "TV8.5",
-      "reason": "missing"
-    },
-    {
-      "name": "CNN Türk",
       "reason": "missing"
     },
     {
