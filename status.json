@@ -1,8 +1,8 @@
 {
-  "updated_at_tr": "2026-11-12T11:01:38+03:00",
+  "updated_at_tr": "2026-11-13T10:40:35+03:00",
   "source_url": "https://iptv-org.github.io/iptv/languages/tur.m3u",
-  "source_entries": 175,
-  "selected_channels": 36,
+  "source_entries": 176,
+  "selected_channels": 37,
   "missing_channels": [
     {
       "name": "Show TV",
@@ -22,10 +22,6 @@
     },
     {
       "name": "A Para",
-      "reason": "missing"
-    },
-    {
-      "name": "Sözcü TV",
       "reason": "missing"
     },
     {
