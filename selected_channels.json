@@ -375,7 +375,7 @@
     ],
     "source_name": "Sozcu TV",
     "source_tvg_id": "SozcuTV.tr@SD",
-    "stream_url": "https://filbox-to-m3u8.onrender.com/stream/szchd.m3u8",
+    "stream_url": "https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/szchd.m3u8",
     "match": "exact"
   },
   {
