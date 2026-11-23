@@ -9,7 +9,7 @@
       "TRT1"
     ],
     "source_name": "TRT 1",
-    "source_tvg_id": "TRT1.tr@SD",
+    "source_tvg_id": "TRT1.tr@HD",
     "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
     "match": "exact"
   },
@@ -522,7 +522,7 @@
     ],
     "source_name": "TRT Muzik",
     "source_tvg_id": "TRTMuzik.tr@SD",
-    "stream_url": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+    "stream_url": "https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8",
     "match": "exact"
   },
   {
